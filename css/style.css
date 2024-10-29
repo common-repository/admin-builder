@@ -1,0 +1,132 @@
+body.wp-admin {
+    display: inline-table;
+    min-width: 100%;
+}
+.aBMB{
+  display: inline-block;
+  width: 100%;
+}
+.aBMB .description {
+    display: block;
+    margin: 10px 0;
+}
+
+.aBMB .row{
+padding:10px;
+}
+.aBMB .row:nth-child(2n) {
+	background:#e4e4e4;
+}
+form.aBForm textarea {
+    width: 50%;
+    display: inline-block;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+form.abForm label.description {
+    font-weight: 200;
+    padding: 10px 0;
+    display: block;
+    font-weight: 200;
+}
+form.abForm p.pageDescription {
+    margin-bottom: 30px;
+}
+form.abForm label.description {
+    display: block;
+}
+form.abForm img.uploadImage, .aBMB img.uploadImage {
+    min-width: 0px;
+    min-height: 0px;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #6b6b6b;
+    background-color: #e7e7e7;
+}
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+.groupContainer{
+  position: relative;
+  margin:20px 0;
+  padding:20px;
+  background:#e4e4e4;
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+.ab button.close{
+  font-family: Arial;
+  position: absolute;
+  right:-30px;
+  top:3px;
+  padding:5px;
+  float:right;
+  margin:2px;
+  font-size: 14px;
+  border:2px solid #b47878;
+  color:#FFF;
+  opacity: 1;
+  background:#f03d3d;
+
+}
+.ab button.close:hover{
+  cursor: pointer;
+  background: #000;
+  opacity: 1;
+  padding:5px;
+  color:#FFF;
+  border:2px solid #b47878;
+
+}
+.abPageRow{
+  padding:5px;
+  border:1px solid #e0e0e0;
+  margin:5px 0;
+}
+.ab{
+	display:inline-block;
+	overflow:hidden;
+	width:100%;
+}
+.ab .nav-tabs{
+  display: inline-block;
+  width: 100%;
+}
+:not(#poststuff) {
+  .hidden {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+.ab .container-fluid .row.abList,
+.aBMB .row.abList{
+  display: inline-block;
+    width: 100%;
+    padding: 10px 14px 10px 10px;
+    margin: 0 -8px 0 -12px;
+}
+.ab .container-fluid .row.abList:nth-child(2n){
+  background:#e8e8e8;
+}
+.ab .container-fluid .row.abList:nth-child(2n+1){
+  background:#fff;
+}
